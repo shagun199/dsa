@@ -5,26 +5,22 @@ int main()
     int n;
     cout << "Enter the Number : ";
     cin >> n;
-
     int row = 1;
-    int count = 1;
-
     while (row <= n)
     {
         int col = 1;
-        while (col <= row)
+        while (col <= n)
         {
-            cout << count << " ";
-            count++;
+            char ch = 'A' + row - 1;
+            cout << ch << " ";
             col++;
         }
         cout << endl;
         row++;
     }
-    return 0;
 }
 
-// 1
-// 2 3
-// 4 5 6
-// 7 8 9 10
+// A A A A
+// B B B B
+// C C C C
+// D D D D

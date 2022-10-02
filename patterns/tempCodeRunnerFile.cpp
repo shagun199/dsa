@@ -1,2 +1,6 @@
-
-        int col = 1;
+        // int rcol = n;
+        // while (rcol <= row)
+        // {
+        //     cout << rcol << " ";
+        //     rcol++;
+        // }

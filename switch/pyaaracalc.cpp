@@ -4,7 +4,7 @@ int main()
 {
     int a, b;
     cout << "Enter the numbers : ";
-    cin >> a, b;
+    cin >> a >> b;
     cout << endl;
 
     char opr;
@@ -36,5 +36,5 @@ int main()
 
     default:
         cout << "Invalid operation" << endl;
-        }
+    }
 }
